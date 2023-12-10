@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>🦜 Polyglot - Piratical PyScript</title>
+      <script type="module" src="https://pyscript.net/releases/2023.12.1/core.js"></script>
   </head>
   <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
-        <p>This is my new website which is hosted on GitHub Pages!</p>
-    </main>
+    <h1>Polyglot 🦜 💬 🇬🇧 ➡️ 🏴‍☠️</h1>
+    <p>Translate English into Pirate speak...</p>
+    <input type="text" id="english" placeholder="Type English here..." />
+    <button py-click="translate_english">Translate</button>
+    <div id="output"></div>
+    <script type="py" src="./scripts/main.py" config="./pyscript.json"></script>
   </body>
 </html>
