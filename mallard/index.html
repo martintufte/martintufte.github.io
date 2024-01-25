@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Mallard 🦆">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#e66956">
+
+    <title>Mallard 🦆</title>
+    <!-- <link rel="icon" href="/res/icon/leptonic_x64.png" /> -->
+
+    <link rel="stylesheet" href="/mallard/style.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
+
+    <link rel="preload" href="/mallard/frontend.wasm" as="fetch" type="application/wasm" crossorigin="">
+    <link rel="modulepreload" href="/mallard/frontend.js">
+  </head>
+
+  <body>
+    <script type="module">
+      import init from '/mallard/frontend.js';
+      init('/mallard/frontend.wasm');
+    </script>
+
+  </body>
+</html>
