@@ -10,19 +10,19 @@
     <title>Mallard 🦆</title>
     <!-- <link rel="icon" href="/res/icon/leptonic_x64.png" /> -->
 
-    <link rel="stylesheet" href="/mallard/style.css">
+    <link rel="stylesheet" href="style.css">
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
 
-    <link rel="preload" href="/mallard/frontend.wasm" as="fetch" type="application/wasm" crossorigin="">
-    <link rel="modulepreload" href="/mallard/frontend.js">
+    <link rel="preload" href="frontend.wasm" as="fetch" type="application/wasm" crossorigin="">
+    <link rel="modulepreload" href="frontend.js">
   </head>
 
   <body>
+    <h1>Mallard 🦆</h1>
     <script type="module">
-      import init from '/mallard/frontend.js';
-      init('/mallard/frontend.wasm');
+      import init from '/frontend.js';
+      init('/frontend.wasm');
     </script>
-
   </body>
 </html>

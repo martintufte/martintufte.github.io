@@ -1,2 +1,3 @@
-# martintufte.github.io
-Github Page
+# Personal Website
+
+My personal website for personal projects and interests
